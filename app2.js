@@ -25,3 +25,12 @@ fs.writeFile(path.join(__dirname, 'teste', 'teste.txt'), 'Hello World!', err => 
         console.log('arquivo criado com sucesso')
     }
 })
+
+
+fs.readFile(path.join(__dirname, 'teste', 'teste.txt'), 'utf8', (err, data) => {
+    if (err) {
+        console.error('Erro ao ler o arquivo arquivo: ', err)
+    } else {
+        console.log('arquivo lido: ', data)
+    }
+})
