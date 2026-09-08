@@ -1,0 +1,20 @@
+{
+  "name": "tutorial_test",
+  "version": "0.0.1",
+  "description": "tutorial maneiro do mano ythalo e caxa :)",
+  "keywords": [
+    "test",
+    "javascript",
+    "program"
+  ],
+  "license": "ISC",
+  "author": "R1muru",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 'Funcionando normalmente'"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
