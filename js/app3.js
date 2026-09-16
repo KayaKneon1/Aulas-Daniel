@@ -46,6 +46,11 @@ app.put("/usuarios/:id", (req, res)=>{
   usuario.nome = req.body.nome
   res.join(usuario)
 })
+app.put("/usuarios/:id", (req, res)=>{
+  const id = parseInt(req.params.id) 
+  const usuario = usuario.find ((u) => u.id !== id)
+  res.join(usuario)
+})
 
 
 
