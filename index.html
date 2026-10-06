@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Teste Express</title>
+  </head>
+
+  <body>
+    <h1>Testando o Express</h1>
+
+    <h2>Teste 1 - Boas-vindas</h2>
+
+    <form action="http://localhost:3001/boasVindas" method="POST">
+      <label>Nome:</label>
+                
+    
+      <input type="text" name="nome" />
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Teste 2 - Nome e idade</h2>
+
+    <form action="http://localhost:3001/boasVindas2/Joao&20" method="POST">
+      <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Teste 3 - Nome pela URL</h2>
+
+    <form action="http://localhost:3001/boasVindas3/Maria" method="POST">
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
+  
